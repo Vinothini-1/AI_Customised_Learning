@@ -1,0 +1,112 @@
+/* Glassmorphism Background */
+body {
+    background: linear-gradient(135deg, rgba(58, 61, 210, 0.9), rgba(25, 25, 25, 0.9)), 
+                url("https://source.unsplash.com/1600x900/?technology,coding");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centered Main Container */
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+   
+  }
+  
+  /* Stylish Title */
+  .title {
+    font-size: 2.5rem;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Glassy Sections */
+  .topic-section {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+    width: 1000px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .topic-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Topic Titles */
+  h2 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Video Container (Centered & Stylish) */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    animation: popUp 1s ease-in-out;
+  }
+  
+  iframe {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Text Below Video */
+  .details-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #dcdcdc;
+    padding: 15px;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes popUp {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

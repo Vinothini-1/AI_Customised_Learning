@@ -1,0 +1,44 @@
+.padding-header{
+    padding-left: 10px;  /* Adjust as needed */
+    padding-right: 10px; /* Adjust as needed */
+    padding-top: 15px;   /* Retain original top padding */
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.width{
+    width: 100%;
+}
+
+.footer-left{
+    margin-right: 15px;
+}
+/* 
+.hero-margin{
+    margin-left: 20px;
+} */
+
+.custom-margin {
+  margin: 20px;
+}
+.web_btn{
+    margin: 50px;
+
+}
+.web h2{
+    color: rgb(14, 14, 14);
+    margin-top: 50px;
+
+}
+.web h3 {
+    color: rgb(17, 16, 17);
+  margin-top: 50px;
+ 
+
+}
+.web h1{
+   text-align: center;
+
+}
