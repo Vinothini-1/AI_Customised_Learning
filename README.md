@@ -1,72 +1,60 @@
-AI Customised Learning Pathway
-📌 Overview
-The AI Customised Learning Pathway is an innovative educational platform designed to personalize student learning experiences. By leveraging AI-driven assessments, the platform analyzes students' strengths, weaknesses, and academic goals to create a tailored learning pathway.
 
-With the power of TensorFlow.js, the recommendation model suggests optimal content and learning strategies for each user. Students can track their progress, receive feedback, and dynamically adjust their learning objectives.
+                            AI CUSTOMISED LEARNING PATHWAY                                   
 
-🚀 Features
-AI-Powered Assessment – Evaluates student capabilities and learning patterns.
 
-Personalized Learning Paths – Provides customized recommendations for study materials.
+📌 PROJECT OVERVIEW  
 
-Progress Tracking – Monitors user performance and adapts learning paths accordingly.
+The **AI Customised Learning Pathway** is an innovative educational platform designed to 
+personalize learning experiences using **AI-powered assessments**. It evaluates a student's 
+strengths, weaknesses, and goals to create a **tailored learning pathway** that adapts dynamically 
+to their progress. Using **TensorFlow.js**, the system recommends optimized learning content 
+and strategies for each user, ensuring a **data-driven and customized approach to education**.  
 
-Feedback System – Offers insights based on student progress and assessment results.
+Key features include:  
+✅ **AI-driven assessment** to analyze student performance  
+✅ **Personalized learning recommendations** powered by **TensorFlow.js**  
+✅ **Real-time progress tracking & reports** for enhanced learning insights  
+✅ **Secure user account management** for seamless access  
+✅ **Adaptive goal setting** based on real-time feedback  
 
-Account Management – Enables user authentication, profile updates, and goal setting.
+🏗️ TECH STACK  
 
-Comprehensive Reporting – Generates reports on learning trends and achievements.
+Frontend     : React.js  
+Backend      : Node.js with Express.js  
+Database     : MongoDB  
+AI           : Gemini API
+State Mgmt   : Redux (if applicable)  
 
-🛠️ Technologies Used
-Frontend: React.js
 
-Backend: Node.js, Express.js
 
-Database: MongoDB
+📌 FEATURES & FUNCTIONALITIES 
 
-Machine Learning: TensorFlow.js
+🔹 **User Management**  
+   - Secure **Signup & Login** with JWT Authentication  
+   - User Profile Management  
 
-Authentication: JWT (JSON Web Token)
+🔹 **AI-Powered Learning Pathway**  
+   - Initial **AI-based assessment** to determine learning style  
+   - Personalized **content recommendations**  
 
-🔧 Installation & Setup
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ai-customised-learning-pathway.git
-cd ai-customised-learning-pathway
-2️⃣ Install Dependencies
-Backend
-bash
-Copy
-Edit
-cd backend
-npm install
-Frontend
-bash
-Copy
-Edit
-cd frontend
-npm install
-3️⃣ Configure Environment Variables
-Create a .env file in the backend directory and add the necessary configurations:
+🔹 **Learning & Progress Tracking**  
+   - AI-driven **learning suggestions** based on real-time performance  
+   - **Progress reports & analytics** for students  
 
-ini
-Copy
-Edit
-PORT=5000
-MONGO_URI=your-mongodb-connection-string
-JWT_SECRET=your-secret-key
-4️⃣ Start the Application
-Start the Backend Server
-bash
-Copy
-Edit
-cd backend
-npm start
-Start the Frontend
-bash
-Copy
-Edit
-cd frontend
-npm start
+🔹 **Adaptive Learning Goals**  
+   - Dynamic **goal adjustments**  
+   - Feedback-based **personalized learning improvements**  
+
+
+
+🚀 GETTING STARTED  
+
+🔹 **Prerequisites**  
+   - Node.js (v16+)  
+   - MongoDB  
+   - npm or yarn
+   - 
+Create a .env file in the root directory and add:
+
+   --MONGO_URI=your-mongodb-uri
+   --JWT_SECRET=your-secret-key
