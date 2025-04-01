@@ -56,5 +56,8 @@ State Mgmt   : Redux (if applicable)
    - 
 Create a .env file in the root directory and add:
 
-   --MONGO_URI=your-mongodb-uri
+   --MONGO_URI=your-mongodb-uri  
+
+
+   
    --JWT_SECRET=your-secret-key
